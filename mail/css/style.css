@@ -1,0 +1,29 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://diventaunmarketer.com/wp-content/uploads/2016/09/mailing-list.jpg");
+  background-position: top center;
+  text-align: center;
+  color: #F7CD93;
+  font-family: 'Varela Round', sans-serif;
+  text-shadow: 2px 2px #231F20;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+#white_box {
+  width: 50%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+}

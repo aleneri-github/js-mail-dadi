@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("http://www.sfondifree.it/sfondihd/wp-content/uploads/2015/11/Sfondo-3D-dadi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 10px;
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border-radius: 2%;
+}
+
+.black_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 80%;
+  height: 150px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.number_box {
+  height: 70px;
+  width: 70px;
+  line-height: 50px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.number_box h2 {
+  color: #2E2E2C;
+  text-shadow: 2px 2px #585953;
+}
